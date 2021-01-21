@@ -1,11 +1,11 @@
 # Deep-Q-Learning-tensorflow
 Here we use a deep q learning network to simulate traffic control, over a UI build on Tkinter
 
-# Car select fastest route to the destination
+# DQN-Based Route Planning (min. travel time)
  -environment: streets of a city
  -state: traffic that there is at any given point of time
- -Agent: A car
- -Action: Turns (navigate the environment and make decisions (turns))
+ -Agent: A car/ Cars
+ -Action: Turns (navigate the environment and make decisions)
 
 Now in this case we have many cars that are going to be taking decisions based on the decision of the other agents as well. So here is where it can get complicated.
 
