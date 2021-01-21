@@ -1,15 +1,6 @@
 import random
 import numpy as np
 
-Width = 40
-#walk_r = -0.04
-actions = ["up", "down", "left", "right", "stay"]
-[x, y] = [3, 3]
-score = 0
-reward = 0
-action = 0
-s_ = [0, 0]
-
 class Vehicle:
     def __init__(self,
         id,
